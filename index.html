@@ -1,0 +1,1046 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Book Flights - Book & Fly from India| Qatar Airways
+        </title>
+        <link rel="icon" href="Images/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body onscroll="change()" id="body">
+         <div class="top-diwali">
+            <div class="hambox" id="hambox">
+              <div class="hambox-up">
+                <div class="hambox-up1">
+                    <div>
+                        <!-- <img src="Images/favicon.ico" alt="">
+                        <img src="Images/oneword.svg" alt=""> -->
+                        <img src="Images/media-queries/white.svg" alt="">
+                    </div>
+                    <div>
+                        <Span style="font-size: 33px;" onclick="closeham()">
+                            &times;
+                        </Span>
+                    </div>
+                </div>
+                <div class="hambox-up2">
+                    <div>
+                        <a href="">Login|Sign up</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+              </div>  
+              <input type="search" style="width: 100%; padding: 10px;" placeholder="Search">
+              <div class="ham-all-down">
+                <div class="hambox-down">
+                    <div>
+                       <i> icons</i> <a href="">Explore</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-right" style="color: rgb(123, 113, 113);"></i>
+                    </div>
+              </div>
+              <div class="hambox-down">
+                    <div>
+                       <i> icons</i> <a href="">Book</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-right" style="color: rgb(123, 113, 113);"></i>
+                    </div>
+              </div>
+              <div class="hambox-down">
+                    <div>
+                       <i> icons</i> <a href="">Experience</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-right" style="color: rgb(123, 113, 113);"></i>
+                    </div>
+              </div>
+              <div class="hambox-down">
+                    <div>
+                       <i> icons</i> <a href="">Privilage club</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-right" style="color: rgb(123, 113, 113);"></i>
+                    </div>
+              </div>
+              <div class="hambox-down">
+                    <div>
+                       <i> icons</i> <a href="">Flight status</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-right" style="color: rgb(123, 113, 113);"></i>
+                    </div>
+              </div>
+              <div class="hambox-down">
+                    <div>
+                       <i> icons</i> <a href="">Help</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-right" style="color: rgb(123, 113, 113);"></i>
+                    </div>
+              </div>
+              <div class="hambox-down-last">
+                    <div>
+                        Get more on our app
+                    </div>
+                    <img src="Images/Footer Images/app.png" width="100px" alt="">
+              </div>
+              </div>
+            </div>
+            <div class="header-up-media" id="header-up-media">
+                <div class="header-up-left-media" >
+                    <img src="Images/media-queries/white.svg" alt="">
+                </div>
+                <div class="header-up-right-media"  >
+                    <div>
+                        <img src="Images/in.png" width="20px">
+                    EN
+                    </div>
+                    <div style="margin-left: 20px; margin-right: 10px;">
+                        <img src="Images/header Images/customer-icon.svg" alt="">
+                    </div>
+                    <div style="margin-top: -10px;" onclick="openham()">
+                        <span style="cursor: pointer;">
+                            &equiv;
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-middle-media">
+                <div class="para-media">
+                     Save up to 12%* from
+                        India to USA
+                </div>
+            
+               <div class="book1-media">
+                <p>
+                    Use code QRVFR
+                </p>
+               </div>
+            </div>
+            <div class="header-up" id="header-up">
+                <div class="header-up-left" >
+                    <img src="Images/header Images/whitehorse.svg" alt="">
+                    <img src="Images/oneword.svg" alt="">
+                    <a href="" id="header-up-a" >Explore</a>
+                    <a href="">Book</a>
+                    <a href="">Experience</a>
+                    <a href="">Privilege Club</a>
+                </div>
+                <div class="header-up-right"  >
+                    <a href="">Help</a>
+                    <i class="fa fa-search " id="search"></i>
+                    <img src="Images/in.png" width="20px">
+                    <img src="Images/header Images/customer-icon.svg" alt="">
+                    <a href="">Login|Sign up</a>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="para">
+                    <h2>
+                        Connect with your family and friends
+                    </h2>
+                </div>
+                <div class="timer" id="timer">
+                    <div>
+                        <p>
+                            Day Hour Min Sec
+                        
+                        </p>                    
+                    </div>
+            </div>
+               <div class="book1">
+                <p>
+                    Book Now
+                </p>
+               </div>
+            </div>
+        </div>
+        <!-- ...........Middle part here............. -->
+        <div class="middle">
+            <div class="head-attachment">
+                <div class="head-attachment-top">
+                    <div class="top-one" style="display: flex;">
+                        <div class="plane">
+                            <img src="Images/head-attachment/plane.svg" width="25px" alt="">
+                        </div>
+                        <p>
+                            Book a flight
+                        </p>
+                    </div>
+                    <div class="top-two">
+                        <i class=""></i>
+                        <p>
+                            Stopover/Packages
+                        </p>
+                    </div>
+                    <i class=""></i>
+                    <div class="top-three">
+                        <p>
+                            Manage/Check in
+                        </p>
+                    </div>
+                    <i class=""></i>
+                    <div class="top-four">
+                        <p>
+                            Flight status
+                        </p>
+                    </div>
+    
+                </div>
+                <div class="head-attachment-middle">
+                    <form action="">
+                    <span>
+                        <label for="">
+                            <input type="radio" id="100" value="100" name="rrr"> Return
+                            <input type="radio" id="101" value="101" name="rrr"> One way
+                            <input type="radio" id="102" value="102" name="rrr"> Multi-city
+                        </label>
+                    </span>
+                    </form>
+                </div>
+                <div class="head-attachment-bottom">
+                    <div class="d-flex p-2 p-0">
+                      <input type="text" placeholder="From          To"> <div class="vr"></div> 
+                      <input type="text" placeholder="Departure"> <div class="vr"></div>
+                      <input type="text" placeholder="Return"> <div class="vr"></div>
+                      <input type="text" placeholder="Passengers/Class"> 
+                      <i class="fa fa-angle-down" id="pas-down">
+
+                      </i>
+                  </div>
+                </div>
+
+                <div class="head-attachment-bottom-last">
+                    <div class="promo">
+                        <i class="fa fa-plus"></i>
+                        Add promo code
+                    </div>
+                    <div class="search">
+                        Search flight
+                    </div>
+                </div>
+            </div>
+                <p id="paraone">
+                    Start planning your next trip
+                </p>
+                <h6 id="h6">
+                    Thinking of travelling somewhere soon? Here are some options to help you get started.
+                </h6>
+            <div class="middle-one">
+                <div class="booking">
+                    <div class="booking-img">
+                        <img src="Images/booking/1.jpg" alt="">
+                    </div>
+                    <div class="booking-matter">
+                        <p>
+                            Save upto 12%*. Use promo code QRVFR
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="booking-button">
+                        Book now 
+                        <i class="fa fa-angle-right" id="book">
+
+                        </i> 
+                    </div> 
+                </div>
+                <div class="booking">
+                    <div class="booking-img">
+                        <img src="Images/booking/2.jpg" alt="">
+                    </div>
+                    <div class="booking-matter">
+                        <p>
+                            Stopover in Qatar from $14 pp
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="booking-button" >
+                        Find out now
+                        <i class="fa fa-angle-right" id="findout">
+
+                        </i> 
+                    </div> 
+                </div>
+                <div class="booking">
+                    <div class="booking-img">
+                        <img src="Images/booking/3.jpg" alt="">
+                    </div>
+                    <div class="booking-matter">
+                        <p>
+                            Save upto 15%*.With HDFC Bank
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="booking-button">
+                        Book now 
+                        <i class="fa fa-angle-right" id="book">
+
+                        </i> 
+                    </div> 
+                </div>
+                <div class="booking">
+                    <div class="booking-img">
+                        <img src="Images/booking/4.jpg" alt="">
+                    </div>
+                    <div class="booking-matter" id="booking-matter">
+                        <p>
+                            Flying as one, for you
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="booking-button">
+                        Book now 
+                        <i class="fa fa-angle-right" id="book" >
+
+                        </i> 
+                    </div> 
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-media-top">
+                  <div style="color: pink;">
+                   <img src="Images/head-attachment/plane.svg" width="30px" style="rotate: 45deg;" >
+                    Book a flight <i class="fa fa-angle-down" style="margin-left: 160px;" ></i>
+                  </div> 
+                  <form action="">
+                    <span>
+                        <label for="">
+                            <input type="radio" id="100" value="100" name="rrr"> Return
+                            <input type="radio" id="101" value="101" name="rrr"> One way
+                            <input type="radio" id="102" value="102" name="rrr"> Multi-city
+                        </label>
+                    </span>
+                    </form>
+                   <div class="">
+                    <input type="text" placeholder="From          To">  <br>
+                    <input type="text" placeholder="Departure">  <br>
+                    <input type="text" placeholder="Return">  <br>
+                    <input type="text" placeholder="Passengers/Class"  > 
+                   </div>
+                    <div class="promo" style="margin: 0;">
+                        <i class="fa fa-plus"></i>
+                        Add promo code
+                    </div>
+                    <div class="search" style="width: 100%; text-align: center;">
+                        Search flight
+                    </div>
+                </div>
+                <div class="d-flex p-2">
+                    <div>
+                        Icons
+                      </div> 
+                    Qatar Stopover <i class="fa fa-angle-down" style="margin-left: 160px;"></i>
+                </div>
+                <div class="d-flex p-2">
+                    <div>
+                        Icons
+                      </div> 
+                    Stopover/Packages <i class="fa fa-angle-down" style="margin-left: 130px;"></i>
+                </div>
+                <div class="d-flex p-2">
+                    <div>
+                        Icons
+                      </div> 
+                    Manage /Check in <i class="fa fa-angle-down" style="margin-left: 135px;"></i>
+                </div>
+            </div>
+            <div class="middle-second">
+                <p>
+                    Find great fares
+                </p>
+                <h5>
+                    From <input type="text"> <i class="fa fa-pencil"></i>
+                </h5>
+                <div class="middle-second-1">
+                    <div class="second-1-left" id="second-1-left" onmouseover="zoom()" onmouseout="zoomout()">
+                        <div class="trend">
+                           <span> Trending</span>
+                        </div>
+                        <div class="dallas">
+                            <div class="dallas-date">
+                                <h4>
+                                    Dallas
+                                </h4>
+                                <p style="font-size: 18px;">
+                                    05 Mar 2025 To 01 Apr 2026
+                                </p>
+                            </div>
+                            <div class="dallas-economy">
+                                <p style="font-size: 18px;">
+                                    Economy from INR 92191
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dallas-button" id="dallas-button">
+                            Book Now
+                        </div>
+                        <div class="discover">
+                            <a href="">Discover</a>
+                        </div>
+                    </div>
+                    <div class="second-1-right">
+                        <div class="right-1">
+                            <div class="trend">
+                               <span> Trending</span>
+                            </div>
+                            <div class="dallas">
+                                <div class="dallas-date">
+                                    <h4>
+                                        Boston
+                                    </h4>
+                                    <p style="font-size: 18px;">
+                                        30 Jan 2025 - 06 Feb 2025
+                                    </p>
+                                </div>
+                                <div class="dallas-economy">
+                                    <p style="font-size: 18px;">
+                                        Economy from INR 76283
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dallas-button" id="dallas-button">
+                                Book Now
+                            </div>
+                            <div class="discover">
+                                <a href="">Discover</a>
+                            </div>
+                        </div>
+                        <div class="right-2">
+                            <div class="trend" style="visibility: hidden;">
+                               <span> Trending</span>
+                            </div>
+                            <div class="dallas">
+                                <div class="dallas-date">
+                                    <h4>
+                                        Chicago
+                                    </h4>
+                                    <p style="font-size: 18px;">
+                                        18 Mar 2025 - 02 Apr 2025
+                                    </p>
+                                </div>
+                                <div class="dallas-economy">
+                                    <p style="font-size: 18px;">
+                                        Economy from INR 85651
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dallas-button" id="dallas-button">
+                                Book Now
+                            </div>
+                            <div class="discover">
+                                <a href="">Discover</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle-second-2">
+                    <div class="second-2-left">
+                        <div class="left-1">
+                            <div class="trend">
+                                <span> Trending</span>
+                            </div>
+                            <div class="dallas">
+                                <div class="dallas-date">
+                                    <h4>
+                                        Barcelona
+                                    </h4>
+                                    <p style="font-size: 18px;">
+                                        25 Nov 2024 - 24 Dec 2024
+                                    </p>
+                                </div>
+                                <div class="dallas-economy">
+                                    <p style="font-size: 18px;">
+                                        Economy from INR 53802
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dallas-button" id="dallas-button">
+                                Book Now
+                            </div>
+                            <div class="discover">
+                                <a href="">Discover</a>
+                            </div>
+                        </div>
+                        <div class="left-2">
+                            <div class="trend">
+                               <span> Limited Time Only</span>
+                            </div>
+                            <div class="dallas">
+                                <div class="dallas-date">
+                                    <h4>
+                                        London Heathrow
+                                    </h4>
+                                    <p style="font-size: 18px;">
+                                        08 Nov 2024 - 21 Nov 2024
+                                    </p>
+                                </div>
+                                <div class="dallas-economy">
+                                    <p style="font-size: 18px;">
+                                        Economy from INR 52111
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dallas-button" id="dallas-button">
+                                Book Now
+                            </div>
+                            <div class="discover">
+                                <a href="">Discover</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-2-right">
+                        <div class="trend" style="visibility: hidden;">
+                           <span> Trending</span>
+                        </div>
+                        <div class="dallas">
+                            <div class="dallas-date">
+                                <h4>
+                                    Budapest
+                                </h4>
+                                <p style="font-size: 18px;">
+                                    07 Nov 2024 - 15 Nov 2024
+                                </p>
+                            </div>
+                            <div class="dallas-economy">
+                                <p style="font-size: 18px;">
+                                    Economy from INR 96488
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dallas-button" id="dallas-button">
+                            Book Now
+                        </div>
+                        <div class="discover">
+                            <a href="">Discover</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle-second-3">
+                    <div class="second-3-left">
+                        <div class="trend" style="visibility: hidden;">
+                            <span> Trending</span>
+                        </div>
+                        <div class="dallas">
+                            <div class="dallas-date">
+                                <h4>
+                                    Sao Paulo
+                                </h4>
+                                <p style="font-size: 18px;">
+                                    10 Feb 2025 - 17 Feb 2025
+                                </p>
+                            </div>
+                            <div class="dallas-economy">
+                                <p style="font-size: 18px;">
+                                    Economy from INR 145529
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dallas-button" id="dallas-button">
+                            Book Now
+                        </div>
+                        <div class="discover">
+                            <a href="">Discover</a>
+                        </div>
+                    </div>
+                    <div class="second-3-right">
+                        <div class="right-11">
+                            <div class="trend" style="visibility: hidden;">
+                                <span> Trending</span>
+                            </div>
+                            <div class="dallas">
+                                <div class="dallas-date">
+                                    <h4>
+                                        Berlin
+                                    </h4>
+                                    <p style="font-size: 18px;">
+                                        09 Dec 2024 - 07 Jan 2025
+                                    </p>
+                                </div>
+                                <div class="dallas-economy">
+                                    <p style="font-size: 18px;">
+                                        Economy from INR 59859
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dallas-button" id="dallas-button">
+                                Book Now
+                            </div>
+                            <div class="discover">
+                                <a href="">Discover</a>
+                            </div>
+                        </div>
+                        <div class="right-22">
+                            <div class="trend" style="visibility: hidden;">
+                               <span> Trending</span>
+                            </div>
+                            <div class="dallas">
+                                <div class="dallas-date">
+                                    <h4>
+                                        New York
+                                    </h4>
+                                    <p style="font-size: 18px;">
+                                        10 Dec 2024 - 07 Jan 2025
+                                    </p>
+                                </div>
+                                <div class="dallas-economy">
+                                    <p style="font-size: 18px;">
+                                        Economy from INR 69203
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dallas-button" id="dallas-button">
+                                Book Now
+                            </div>
+                            <div class="discover">
+                                <a href="">Discover</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="views">
+                    View More fares
+                 </div>
+                <div class="terms">
+                    <p>
+                        *Terms and conditions apply.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="middle-nav">
+            <a  id="club" onclick="slide0()">Privilege Club</a>
+            <a  id="awards" onclick="slide1()">Awards</a>
+            <a  id="app" onclick="slide2()">Mobile app</a>
+            <a  id="std" onclick="slide3()">Students Club</a>
+        </div>
+        <div class="privilage" id="privilage-club">
+             <div class="privilage-box">
+                <h3>
+                    Join Privilage Club
+                </h3>
+                <p>
+                    Earn Avios and use them towards shopping at Qatar duty Free,flight,upgrades,extra baggage and more exclusive benefits
+                </p>
+                <div class="join">
+                    Join now
+                </div>
+             </div>   
+        </div>
+        <div class="awards" id="awards-club">
+             <div class="privilage-box">
+                <h3>
+                    World's best Airline
+                </h3>
+                <p>
+                    We are thrilled to reclaim our leading position as the world's Best Airline 2024, for the eight time, at Skytrax 2024.
+                </p>
+                <div class="join">
+                    Learn more
+                </div>
+             </div>   
+        </div>
+        <div class="mobile" id="mobile-club">
+             <div class="privilage-box">
+                <h3>
+                   Get more on our mobile app
+                </h3>
+                <p>
+                    Benefits from app-exclusive offers,personalised notifications, seamless booking function,journey tracking and more.
+                </p>
+                <div class="join">
+                    Learn more
+                </div>
+             </div>   
+        </div>
+        <div class="student" id="student-club">
+             <div class="privilage-box">
+                <h3>
+                    Aim for the skies for the student club
+                </h3>
+                <p>
+                    offer you exclusive benefits including special fares, extra baggage,complimentary Wi-Fi and more.
+                </p>
+                <div class="join">
+                    Join today
+                </div>
+             </div>   
+        </div>
+        <div class="middle-last">
+            <p style="font-size: 30px;">
+                Looking for a travel package?
+            </p>
+            <p>
+                Save more and earn greater rewards when you book your flight plus hotel package with Qatar Airways Holidays.
+            </p>
+            <div class="package">
+                <div class="package-1">
+                    <div class="dallas">
+                        <div class="dallas-economy">
+                            <p style="font-size: 28px;">
+                               Unforgettable escapes with great savings
+                            </p>
+                        </div>
+                    </div>
+                    <div class="dallas-button" id="dallas-button">
+                        Book Now
+                    </div>
+                </div>
+                <div class="package-2">
+                    <div class="dallas">
+                        <div class="dallas-economy">
+                            <p style="font-size: 28px;">
+                               Feel the thrill of F1 R with Fan packages
+                            </p>
+                        </div>
+                    </div>
+                    <div class="dallas-button" id="dallas-button">
+                        Book Now
+                    </div>
+                </div>
+                <div class="package-3">
+                    <div class="dallas">
+                        <div class="dallas-economy">
+                            <p style="font-size: 28px;">
+                               Collect Avios and Qpoints on all travel packages
+                            </p>
+                        </div>
+                    </div>
+                    <div class="dallas-button" id="dallas-button">
+                        Book Now
+                    </div>
+                </div>
+            </div>
+            <div class="package-media" >
+                <div class="package-1" id="package-1-media">
+                    <div class="dallas">
+                        <div class="dallas-economy">
+                            <p style="font-size: 25px;">
+                               Unforgettable escapes with great savings
+                            </p>
+                        </div>
+                    </div>
+                    <div class="dallas-button" id="dallas-button">
+                        Book Now
+                    </div>
+                </div>
+                <div class="package-2" id="package-1">
+                    <div class="dallas">
+                        <div class="dallas-economy">
+                            <p style="font-size: 25px;">
+                               Feel the thrill of F1 R with Fan packages
+                            </p>
+                        </div>
+                    </div>
+                    <div class="dallas-button" id="dallas-button">
+                        Book Now
+                    </div>
+                </div>
+                <div class="package-3" id="package-1" >
+                    <div class="dallas">
+                        <div class="dallas-economy">
+                            <p style="font-size: 25px;">
+                               Collect Avios and Qpoints on all travel packages
+                            </p>
+                        </div>
+                    </div>
+                    <div class="dallas-button" id="dallas-button">
+                        Book Now
+                    </div>
+                </div> 
+            </div>
+            <div class="dots" id="dot1" onclick="dot1()">
+                    
+            </div>
+            <div class="dots" id="dot2" onclick="dot2()">
+                    
+            </div>
+            <div class="dots" id="dot3" onclick="dot3()">
+                    
+            </div>
+            <div class="last-picture">
+                <div class="last-picture-box">
+                    <h2>
+                        Never miss an offer
+                    </h2> <br>
+                    <p style="font-size: 20px;">
+                        Subscribe and be the first to receive our exclusive offers.
+                    </p> 
+                    <form action="">
+                        <input type="email" placeholder="Email address"> 
+                        <input type="text" placeholder="Preferred city of departure" id="text"> <br> 
+                        <input type="checkbox" id="matter">
+                         <p id="matters" >
+                            I would like to get offers and news from Qatar Airways. I have read and understood the <a href="" style="color: white;">privacy notice</a>.
+                        </p>
+                        <div class="subs">
+                            Subscribe
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="last-picture-media">
+                <div class="last-picture-box">
+                    <h2>
+                        Never miss an offer
+                    </h2> <br>
+                    <p style="font-size: 20px;">
+                        Subscribe and be the first to receive our exclusive offers.
+                    </p> 
+                    <form action="">
+                        <input type="email" placeholder="Email address"> 
+                        <input type="text" placeholder="Preferred city of departure" id="text"> <br> 
+                        <input type="checkbox" id="matter">
+                         <p id="matters" >
+                            I would like to get offers and news from Qatar Airways. I have read and understood the <a href="" style="color: white;">privacy notice</a>.
+                        </p>
+                        <div class="subs">
+                            Subscribe
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--........................ footer part from here!....................... -->
+         
+            <div class="footer">
+                <div class="footer-top">
+                    <div class="colmedia "  id="colmedia1" onclick="showHide()" >
+                        <div class="d-flex p-2">
+                            <h5>
+                            Qatar Airways 
+                            <i class="fa fa-angle-down" id="down" style="padding-left: 185px;"  >
+                            </i>
+                        </h5>
+                      </div>
+                      <div class="col" id="open">
+                        <a href="">About us</a>
+                        <a href="">Careers</a>
+                        <a href="">Press releases</a>
+                        <a href="">Sponsorship</a>
+                        <a href="">AI Darb Qatarisation</a>
+                        <a href="">Annual reports</a>
+                        <a href="">Environment</a>
+                        <a href="">sustainability</a>
+                    </div>
+                    </div>
+                    <div class="colmedia" id="colmedia1" onclick="openclose()">
+                        <div class="d-flex p-2">
+                            <h5>
+                            Group Companies
+                            <i class="fa fa-angle-down" id="down2"  style="padding-left: 150px;">
+                            </i>
+                        </h5>
+                       </div>
+                    <div class="col" id="open2">
+                        <a href="">Hamad International</a>
+                        <a href="">Airport</a>
+                        <a href="">Qatar Executive</a>
+                        <a href="">Qatar Duty Free</a>
+                        <a href="">Qatar Airways Cargo</a>
+                        <a href="">International Media Services</a>
+                        <a href="">Design Organisation</a>
+                        <a href="">Group companies</a>
+                       </div>
+                    </div>
+                    <div class="colmedia"  onclick="onoff()">
+                        <div class="d-flex p-2">
+                            <h5>
+                                Business solutions
+                                <i class="fa fa-angle-down" id="down3" style="padding-left: 150px;">
+                                </i>
+                        </h5>
+                      </div>
+                      <div class="col" id="open3">
+                        <a href="">Corporate travel</a>
+                        <a href="">Beyond Business</a>
+                        <a href="">QMICE meetings</a>
+                        <a href="">events</a>
+                        <a href="">Advertise with us</a>
+                      </div>
+                    </div>
+                    <div class="colmedia" onclick="closeopen()">
+                        <div class="d-flex p-2">
+                            <h5>
+                                Business partners
+                                <i class="fa fa-angle-down" id="down4" style="padding-left: 155px;">
+                                </i>
+                        </h5>
+                       </div>
+                       <div class="col" id="open4">
+                        <a href="">Affiliate Marketing</a>
+                        <a href="">e-procurement and </a>
+                        <a href="">supplier registration</a>
+                        <a href="">Trade partners</a>
+                       </div>
+                    </div>
+                    <div class="colmedia" onclick="help()">
+                        <div class="d-flex p-2">
+                            <h5>
+                                Help
+                                <i class="fa fa-angle-down" id="down5" style="padding-left: 270px;">
+                                </i>
+                        </h5>
+                      </div>
+                      <div class="col" id="open5">
+                        <a href="">Contact us</a>
+                        <a href="">Browse FAQs</a>
+                        <a href="">Travel alerts</a>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <h5>
+                            Qatar Airways
+                        </h5>
+                        <a href="">About us</a>
+                        <a href="">Careers</a>
+                        <a href="">Press releases</a>
+                        <a href="">Sponsorship</a>
+                        <a href="">AI Darb Qatarisation</a>
+                        <a href="">Annual reports</a>
+                        <a href="">Environment</a>
+                        <a href="">sustainability</a>
+                    </div>
+                    <div class="col">
+                        <h5>
+                            Group companies
+                        </h5>
+                        <a href="">Hamad International</a>
+                        <a href="">Airport</a>
+                        <a href="">Qatar Executive</a>
+                        <a href="">Qatar Duty Free</a>
+                        <a href="">Qatar Airways Cargo</a>
+                        <a href="">International Media Services</a>
+                        <a href="">Design Organisation</a>
+                        <a href="">Group companies</a>
+                    </div>
+                    <div class="col">
+                        <h5>
+                            Business solutions
+                        </h5>
+                        <a href="">Corporate travel</a>
+                        <a href="">Beyond Business</a>
+                        <a href="">QMICE meetings</a>
+                        <a href="">events</a>
+                        <a href="">Advertise with us</a>
+                    </div>
+                    <div class="col">
+                       <h5>
+                        Business partners
+                       </h5>
+                        <a href="">Affiliate Marketing</a>
+                        <a href="">e-procurement and </a>
+                        <a href="">supplier registration</a>
+                        <a href="">Trade partners</a>
+                    </div>
+                    <div class="col">
+                        <h5>
+                            Help
+                        </h5>
+                        <a href="">Contact us</a>
+                        <a href="">Browse FAQs</a>
+                        <a href="">Travel alerts</a>
+                    </div>
+                    <div class="col-last">
+                        <img src="Images/Footer Images/middlefooter.svg" alt="">
+                        <div class="appmedia">
+                            <p style="font-size: 15px;">
+                                Download Qatar Airways App
+                            </p>
+                            <img src="Images/Footer Images/app.png" width="120px" alt="">
+                        </div>
+                        <div class="icons">
+                            <p>
+                                Let’s stay connected
+                            </p>
+                           <img src="Images/Footer Images/facebook.svg" alt="">
+                           <img src="Images/Footer Images/twitter.svg" alt="">
+                           <img src="Images/Footer Images/linkedin.svg" alt="">
+                           <img src="Images/Footer Images/youtube.svg" alt="">
+                           <img src="Images/Footer Images/insta.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-middle">
+                    <div class="col2">
+                        <img src="Images/Footer Images/s-skytrax-2024-aoty-logo.svg" width="70px" alt="">
+                        <p>
+                            World’s Best Airline
+                        </p>
+                    </div>
+                    <div class="col2">
+                        <img src="Images/Footer Images/s-skytrax-2024-log.svg" width="70px" alt="">
+                       <p>
+                        World's Best Business Class
+                       </p>
+                    </div>
+                    <div class="col2">
+                        <img src="Images/Footer Images/s-skytrax-2024-log.svg" width="70px" alt="">
+                        <p>
+                            World's Best Business Class Lounge
+                        </p>
+                    </div>
+                    <div class="col2">
+                        <img src="Images/Footer Images/s-skytrax-2024-log.svg" width="70px" alt="">
+                        <p>
+                            Best Airline in the Middle East
+                        </p>
+                    </div> 
+                </div>
+                <div class="footer-bottom">
+                    <div class="col3">
+                        <a href=""> Cookie policy</a>
+                        <a href="">Legal</a>
+                        <a href=""> Privacy</a>
+                        <a href="">Accessibility</a>
+                        <a href="">
+                            Combating human trafficking</a>
+                        <a href="">
+                            Sitemap</a>
+                        <a href=""> Cookie Consent</a>
+                    </div>
+                    <div class="col3">
+                        <p>
+                            Qatar Airways. All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-nav" id="footer-nav">
+                <div class="pol">
+                    <div>
+                        <img src="Images/favicon.ico" alt="">
+                    </div>
+                    Book
+                </div>
+                <div class="pol">
+                    <div>
+                        <img src="Images/favicon.ico" alt="">
+                    </div>
+                        Offers
+                </div>
+                <div class="pol">
+                    <div>
+                        <img src="Images/media-queries/partners.svg" width="30px" alt="">
+                    </div>
+                        Partners
+                </div>
+                <div class="pol">
+                    <div>
+                        <img src="Images/favicon.ico" alt="">
+                    </div>
+                        Help
+                </div>
+            </div>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>  
+      </body>
+</html>

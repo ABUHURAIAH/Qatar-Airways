@@ -1,0 +1,12 @@
+<svg id="Twitter-new" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_6579">
+    <g id="Ellipse_337">
+      <circle id="Ellipse_1170" data-name="Ellipse 1170" cx="16" cy="16" r="16" fill="none"/>
+      <circle id="Ellipse_1171" data-name="Ellipse 1171" cx="15.4" cy="15.4" r="15.4" transform="translate(0.6 0.6)" fill="none" stroke="#4a525d" stroke-width="1.2"/>
+    </g>
+  </g>
+  <g id="Ic_nav_menu_X" transform="translate(4 4)">
+    <rect id="Safe-zone" width="24" height="24" opacity="0"/>
+    <path id="logo" d="M9.522,6.924,15.479,0H14.067L8.9,6.012,4.764,0H0L6.247,9.091,0,16.352H1.412L6.873,10l4.362,6.349H16L9.522,6.924ZM7.589,9.171l-.633-.905L1.92,1.063H4.088L8.152,6.876l.633.905,5.283,7.556H11.9L7.589,9.171Z" transform="translate(4 3.953)" fill="#1f212b"/>
+  </g>
+</svg>
